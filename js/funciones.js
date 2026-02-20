@@ -47,7 +47,7 @@ const app = Vue.createApp({
         },
         generarImagen(personaje) {
             if (!personaje) return '';
-            return 'https://thesimpsonsapi.com/api/characters/' + personaje.portrait_path;
+            return 'https://cdn.thesimpsonsapi.com/500' + personaje.portrait_path;
         },
         abrirModal(personaje) {
             this.personajeSeleccionado = personaje;

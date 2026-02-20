@@ -1,0 +1,43 @@
+body { 
+    background-color: #FFD90F; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+}
+
+.bg-header { 
+    background-color: #005CB9; 
+    color: white; 
+    border-bottom: 5px solid #000; 
+}
+
+.card { 
+    border: 3px solid #000; 
+    border-radius: 15px; 
+    background-color: #fff; 
+}
+
+.btn-simpson { 
+    background-color: #FF81C6; 
+    color: black; 
+    font-weight: bold; 
+    border: 2px solid #000; 
+}
+
+.btn-simpson:hover { 
+    background-color: #E13E78; 
+    color: white; 
+}
+
+.modal-content { 
+    border: 4px solid #000; 
+    border-radius: 15px; 
+}
+
+.progress { 
+    border: 2px solid #000; 
+}
+
+.progress-bar { 
+    background-color: #FF81C6 !important; 
+    color: black; 
+    font-weight: bold; 
+}

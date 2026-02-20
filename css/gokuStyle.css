@@ -1,0 +1,52 @@
+        body {
+            background-color: #1a1a1a;
+            color: white;
+            padding-bottom: 70px; /* Espacio para el footer fijo */
+        }
+
+        .navbar {
+            background-color:#ff8c00;
+            border-bottom: 4px solid #003399;
+        }
+
+        .card {
+            background-color: #2a2a2a;
+            border: 2px solid #ff8c00;
+            transition: transform 0.3s;
+            margin-bottom: 20px;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+            border-color: #FFD700;
+        }
+        img{
+            height: 400px !important;
+        }
+
+        .btn-db {
+            background-color: #003399;
+            color: white;
+            border: 2px solid #FFD700;
+        }
+
+        .btn-db:hover {
+            background-color: #FF8C00;
+            color: black;
+        }
+
+        footer {
+            background-color: #FF8C00;
+            border-top: 4px solid #003399;
+        }
+
+        .filter-btn {
+            flex: 1;
+            margin: 0 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            background-color: #003399;
+            color: #FF8C00;
+        }
+    

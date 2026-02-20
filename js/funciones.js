@@ -46,7 +46,7 @@ const app = Vue.createApp({
             }
         },
         generarImagen(personaje) {
-            if (!personaje) return '';
+            if (!personaje || !personaje.portrait_path) return '';
             return 'https://cdn.thesimpsonsapi.com/500' + personaje.portrait_path;
         },
         abrirModal(personaje) {
